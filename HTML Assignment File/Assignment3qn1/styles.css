@@ -1,0 +1,111 @@
+
+		/* Styling the body element
+		like body color and margin */
+		
+		body {
+			background-color: #eaaaea;
+			
+		}
+
+		/* Styling the Title and giving
+		shadow to the title */
+		header {     
+            /* background-color: rgb(165, 165, 214);       */
+           	text-align: center;
+			position: fixed;
+            width: 100%;
+			font-size: large;
+            padding: 0px;  
+            z-index: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+          
+           	}
+
+        header h1{
+            display: inline-block;
+            color: rgb(19, 16, 16);
+            border: 8px solid rgb(61, 4, 247);
+            padding: 6px 12px;
+            border-radius: 36px;
+
+        }
+
+		/* Setting width and display
+		type of image */
+		img {
+			/* display: flex; */
+            object-position:center;
+            padding-top: 90px;
+			max-width: 25%;
+            max-height: 25%;
+            position: relative;            
+		}
+
+		/* Setting font color and font
+		size of the image-caption */
+		#caption {
+            position:static;
+			font-size: 17px;
+			font-family: Gill Sans;
+            font-weight: bold;
+			color: black;
+		}
+
+		/* Styling the content of the page like-
+		padding, font-size, font color etc.*/
+		div#tribute-data {
+			background-color: rgba(237, 243, 243, 0.25);
+		
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+		}
+
+
+        nav{
+            background: #3264e160;
+            /* position: fixed; */
+            position: sticky;
+            top: 146px;
+            
+          }
+          nav ul{
+            white-space: nowrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+          }
+          nav li{
+            width: 25%;
+            display: inline-block;
+            font-size: 24px;
+          }
+          nav li a{
+            text-decoration: none;
+            color: #4B4B4B;
+          }
+          nav li a{
+            text-decoration: underline;
+          }
+          nav li a.join{
+            color: #fa11df;
+          }
+
+		/* Styling the title of the content */
+		h1.title-MSD {
+			font-size: 35px;
+			color: rgb(173, 224, 218);
+			text-align: center;
+			text-shadow: 5px 5px 10px black;
+           
+		}
+        
+		/* Styling the link provided at the end */
+		#tribute-link {
+			text-decoration: none;
+			color: black;
+		}
+       

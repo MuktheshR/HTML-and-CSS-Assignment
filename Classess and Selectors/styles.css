@@ -1,0 +1,25 @@
+/* p.error{
+    color: #ff6347;
+}
+p.success{
+    color: #008000;
+}
+p.success.feedback{
+    border: 1px dashed #252523;
+}
+div#content{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+/* div .error{
+    color: blue;
+} */
+ a[href*="w3schools"]{
+     background-color: green;
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ 
